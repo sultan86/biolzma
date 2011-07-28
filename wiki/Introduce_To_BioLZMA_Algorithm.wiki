@@ -1,0 +1,29 @@
+= NOTES =
+
+This wiki page is *still under development*. Come back later :)
+
+
+= Why We Need DNA Data Compression Algorithms =
+
+As we all know that the DNA data is very important in scientific research. It contains the complete genetic information for organisms’ developing and functioning. To obtain the DNA data of various creatures, many DNA sequencing projects have been performed and huge amount of biological data has been produced, which brings a lot pressure on its storage and transmission. To deal with this rapidly expanding DNA data, we need some effective compression algorithms.
+
+However, most of the existing general-purpose data compression algorithms have bad performance on DNA data due to its special data features (In fact, the DNA data will expand about 20% in size after "compressed" by tools like bzip2). That's why we need algorithms specific designed for DNA data compression.
+
+
+= The BioLZMA Algorithm =
+
+The BioLZMA algorithm is an effective DNA data compression algorithm proposed by Shenzhen University - Texas Instruments DSPs Laboratory (SZU-TI DSPs Lab). Comparing with some classical DNA data compression algorithms like GenCompress [http://www.cs.cityu.edu.hk/~cssamk/gencomp/GenCompress1.htm [1]] or GeNML [http://www.cs.tut.fi/~tabus/genml/index.html [2]]
+
+
+= Procedure of BioLZMA Algorithm =
+
+
+= More Discussion =
+
+
+
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
