@@ -12,7 +12,11 @@ However, most of the existing general-purpose data compression algorithms have b
 
 = The BioLZMA Algorithm =
 
-The BioLZMA algorithm is an effective DNA data compression algorithm proposed by Shenzhen University - Texas Instruments DSPs Laboratory (SZU-TI DSPs Lab). Comparing with some classical DNA data compression algorithms like GenCompress [http://www.cs.cityu.edu.hk/~cssamk/gencomp/GenCompress1.htm [1]] or GeNML [http://www.cs.tut.fi/~tabus/genml/index.html [2]]
+The BioLZMA algorithm is an effective DNA data compression algorithm proposed by Shenzhen University - Texas Instruments DSPs Laboratory (SZU-TI DSPs Lab). Comparing with conventional DNA compression techniques like GenCompress[http://www.cs.cityu.edu.hk/~cssamk/gencomp/GenCompress1.htm [1]] and GeNML[http://www.cs.tut.fi/~tabus/genml/index.html [2]], the BioLZMA algorithm has following advantages:
+   * *Simple*: BioLZMA based on existing compression techniques like Huffman coding and LZMA compression. It's easy to implement.
+   * *Modularity*: BioLZMA consists of several encoding sub-procedures. These procedures can be replaced or reconfiguration for each compression process in order to achieve better performance.
+   * *Bioinformatics Meanings*: In BioLZMA, the DNA base symbols ('A', 'T', 'C' and 'G') will be translated into (one or several) amino acid symbols before compression. Experimental results show that by doing this, the compression rate can be significantly improved. It shows that the fragments similarities in amino acid sequences is higher than that in DNA symbol sequences.
+   * *High Performance*: BioLZMA algorithm can achieve higher compression rate than most of the conventional DNA data compression techniques. A simple comparison is shown as follows:
 
 
 = Procedure of BioLZMA Algorithm =
