@@ -1,3 +1,5 @@
+#A simple introduction to the compression algorithm.
+
 = NOTES =
 
 This wiki page is *still under development*. Come back later :)
