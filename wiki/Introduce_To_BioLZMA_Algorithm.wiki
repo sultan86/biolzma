@@ -1,4 +1,4 @@
-#A simple introduction to the compression algorithm.
+#simple introduction to the compression algorithm.
 
 = NOTES =
 
