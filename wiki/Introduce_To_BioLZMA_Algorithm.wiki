@@ -1,6 +1,6 @@
-#simple introduction to the compression algorithm.
+#summary Simple introduction to the compression algorithm.
 
-= NOTES =
+= NOTE =
 
 This wiki page is *still under development*. Come back later :)
 
@@ -14,15 +14,30 @@ However, most of the existing general-purpose data compression algorithms have b
 
 = The BioLZMA Algorithm =
 
-The BioLZMA algorithm is an effective DNA data compression algorithm proposed by Shenzhen University - Texas Instruments DSPs Laboratory (SZU-TI DSPs Lab). Comparing with conventional DNA compression techniques like GenCompress[http://www.cs.cityu.edu.hk/~cssamk/gencomp/GenCompress1.htm [1]] and GeNML[http://www.cs.tut.fi/~tabus/genml/index.html [2]], the BioLZMA algorithm has following advantages:
-   * *Simple*: BioLZMA based on existing compression techniques like Huffman coding and LZMA compression. It's easy to implement.
-   * *Modularity*: BioLZMA consists of several encoding sub-procedures. These procedures can be replaced or reconfiguration for each compression process in order to achieve better performance.
-   * *Bioinformatics Meanings*: In BioLZMA, the DNA base symbols ('A', 'T', 'C' and 'G') will be translated into (one or several) amino acid symbols before compression. Experimental results show that by doing this, the compression rate can be significantly improved. It shows that the fragments similarities in amino acid sequences is higher than that in DNA symbol sequences.
-   * *High Performance*: BioLZMA algorithm can achieve higher compression rate than most of the conventional DNA data compression techniques. A simple comparison is shown as follows:
+The BioLZMA algorithm is an effective DNA data compression technique proposed by Shenzhen University - Texas Instruments DSPs Laboratory (SZU-TI DSPs Lab). Comparing with conventional DNA compression algorithms like GenCompress[http://www.cs.cityu.edu.hk/~cssamk/gencomp/GenCompress1.htm [1]] and GeNML[http://www.cs.tut.fi/~tabus/genml/index.html [2]], the BioLZMA has following advantages:
+
+   * *Simple*: BioLZMA based on existing compression techniques like Huffman coding and LZMA compression. Easy to implement.
+   * *Modularity*: BioLZMA consists of several encoding sub-procedures. These procedures can be replaced or reconfigured for each compression process in order to achieve higher performance.
+   * *Bioinformatics Meanings*: In BioLZMA, the DNA base symbols ('A', 'T', 'C' and 'G') will be translated into (one or several) amino acid symbols before compression. Experimental results show that by doing so, the compression rate is significantly improved. Such results indicate that the similarities between amino acid symbol fragments is higher than that in DNA sequences.
+   * *High Performance*: BioLZMA can achieve higher compression rate than most of the conventional DNA data compression techniques. Here is a simple comparison (results are shown in BPB(bit per base))[http://www.cs.tut.fi/~tabus/genml/results.html [3]]:
+
+|| *Sequence* || *Size* || *bzip2* || *Gen2* || *CTW* || *GeNML* || *BioLZMA* ||
+|| CHMPXX || 121024 || 2.12 || 1.67 || 1.67 || 1.66 || *1.51* ||
+|| CHNTXX || 155844 || 2.18 || 1.61 || 1.61 || 1.61 || *1.57* ||
+|| HUMGHCSA || 66495 || 1.73 || 1.10 || 1.10 || *1.01* || 1.41 ||
+|| HUMHPRTB || 56737 || 2.09 || 1.85 || 1.84 || 1.76 || *1.41* ||
+|| VACCG || 191737 || 2.09 || 1.76 || 1.76 || 1.76 || *1.62* ||
 
 
 = Procedure of BioLZMA Algorithm =
 
+The BioLZMA algorithm consist of 3 major sub-procedures: symbols translation, precoding and LZMA compression. All of these sub-procedures can be replaced and / or reconfigured for each compression situation.
+
+*Symbol Translation*: 
+
+*Precoding*:
+
+*LZMA Compression*:
 
 = More Discussion =
 
