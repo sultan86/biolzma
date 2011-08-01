@@ -42,7 +42,7 @@ To install Qt SDK on Mac OS X, simply click [qt-sdk-mac-opensource-2010.05.dmg] 
 
 PyQt is a Qt binding for Python language. The homepage of PyQt is: [http://www.riverbankcomputing.co.uk]. 
 
-*For Windows Users*: Windows users can download and install the all-in-one binary package from: [http://www.riverbankcomputing.co.uk/software/pyqt/download]. Note that the Python version (Py2.6, Py2.7, etc.) and the platform type (32-bit, 64-bit) must match your system.
+*For Windows Users*: Windows users can download and install the all-in-one binary package from: [http://www.riverbankcomputing.co.uk/software/PyQt/download]. Note that the Python version (Py2.6, Py2.7, etc.) and the platform type (32-bit, 64-bit) must match your system.
 
 *For Linux and Mac OS X Users*: Linux and Mac OS X users must build and install the PyQt by hand.
 
