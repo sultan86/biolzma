@@ -26,7 +26,7 @@ Qt is a cross-platform graphic user interface (GUI) framework proposed by Nokia.
 
 *For Windows Users*: Windows users can simply skip this step and go to the next section. No installation is required here.
 
-*For Linux and Mac OS X Users*: For users on Linux and / or Mac OS X, you need to download and install the Qt SDK (open source version) by yourself. Note that the latest SDK from Qt homepage may not be able to work properly with PyQt binding, so you need to download an older version from here: [ftp://ftp.qt.nokia.com/qtsdk/]. For Linux users, package [qt-sdk-linux-x86-opensource-2010.05.bin] and [qt-sdk-linux-x86_64-opensource-2010.05.bin] (for 64-bit platform) are recommended. For Mac OS X users, package [qt-sdk-mac-opensource-2010.05.dmg] is recommended.
+*For Linux and Mac OS X Users*: For users on Linux and / or Mac OS X, you need to download and install the Qt SDK (open source version) by yourself. Note that the latest SDK from Qt homepage may not be able to work properly with PyQt binding, so you need to download an older version from here: [ftp://ftp.qt.nokia.com/qtsdk/]. For Linux users, package [ftp://ftp.qt.nokia.com/qtsdk/qt-sdk-linux-x86-opensource-2010.05.bin qt-sdk-linux-x86-opensource-2010.05.bin] and [ftp://ftp.qt.nokia.com/qtsdk/qt-sdk-linux-x86_64-opensource-2010.05.bin qt-sdk-linux-x86_64-opensource-2010.05.bin] (for 64-bit platform) are recommended. For Mac OS X users, package [ftp://ftp.qt.nokia.com/qtsdk/qt-sdk-mac-opensource-2010.05.dmg qt-sdk-mac-opensource-2010.05.dmg] is recommended.
 
 To install Qt SDK on Linux, type following commands in your console:
 {{{
@@ -35,7 +35,7 @@ $sudo ./qt-sdk-linux-x86-opensource-2010.05.bin
 }}}
 Then a guide window will be shown for your installation.
 
-To install Qt SDK on Mac OS X, simply click [qt-sdk-mac-opensource-2010.05.dmg] and run the package installer.
+To install Qt SDK on Mac OS X, simply click qt-sdk-mac-opensource-2010.05.dmg and run the package installer.
 
 
 = Installing PyQt4 =
