@@ -3,8 +3,8 @@
 
 = User Manual =
 
-The English version of BioLZMA user manual can be downloaded from here: *COMING SOON*
-The Chinese version of BioLZMA user manual can be downloaded from here: *COMING SOON*
+  * The English version of BioLZMA user manual can be downloaded from here: *COMING SOON*
+  * The Chinese version of BioLZMA user manual can be downloaded from here: *COMING SOON*
 
 = Feedback =
 
