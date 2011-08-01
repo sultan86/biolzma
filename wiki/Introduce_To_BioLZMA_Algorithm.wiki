@@ -1,4 +1,5 @@
 #summary Simple introduction to the compression algorithm.
+#labels Featured,Phase-Design
 
 = NOTE =
 
@@ -33,7 +34,7 @@ The BioLZMA algorithm is an effective DNA data compression technique proposed by
 
 The BioLZMA algorithm consist of 3 major sub-procedures: symbols translation, precoding and LZMA compression. All of these sub-procedures can be replaced and / or reconfigured for each compression situation.
 
-*Symbol Translation*: 
+*Symbol Translation*: We notice that the similarities between amino acid sequences is stronger than that in original DNA sequence data. By treating several amino acids as a unique symbol, the fragments similarities can be further enhanced. In BioLZMA, the DNA bases will first be translated into these unique amino acid symbols. Then the translated sequences is sent to the precoder.
 
 *Precoding*:
 
