@@ -60,7 +60,7 @@ $python configure.py -q ~/qtsdk/qt/bin/qmake
 When you see the following messages, type "yes" and press enter:
 {{{
 Determining the layout of your Qt installation...
-This is the GPL version of [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt] 4.8.4 (licensed under the GNU General Public
+This is the GPL version of PyQt 4.8.4 (licensed under the GNU General Public
 License) for Python 2.7.1+ on linux2.
 
 Type '2' to view the GPL v2 license.
