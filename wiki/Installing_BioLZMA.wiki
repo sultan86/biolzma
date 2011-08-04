@@ -22,11 +22,11 @@ Some basic Python FAQs can be found at: [http://docs.python.org/faq/index.html]
 
 = Installing Qt SDK =
 
-Qt is a cross-platform graphic user interface (GUI) framework proposed by Nokia. The homepage of Qt is: [http://qt.nokia.com/products/]. In BioLZMA, we need Qt binding with PyQt installed in order to show the GUI interface of the software. 
+Qt is a cross-platform graphic user interface (GUI) framework proposed by Nokia. The homepage of Qt is: [http://qt.nokia.com/products/]. In BioLZMA, we need Qt binding with [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt] installed in order to show the GUI interface of the software. 
 
 *For Windows Users*: Windows users can simply skip this step and go to the next section. No installation is required here.
 
-*For Linux and Mac OS X Users*: For users on Linux and / or Mac OS X, you need to download and install the Qt SDK (open source version) by yourself. Note that the latest SDK from Qt homepage may not be able to work properly with PyQt binding, so you need to download an older version from here: [ftp://ftp.qt.nokia.com/qtsdk/]. For Linux users, package [ftp://ftp.qt.nokia.com/qtsdk/qt-sdk-linux-x86-opensource-2010.05.bin qt-sdk-linux-x86-opensource-2010.05.bin] and [ftp://ftp.qt.nokia.com/qtsdk/qt-sdk-linux-x86_64-opensource-2010.05.bin qt-sdk-linux-x86_64-opensource-2010.05.bin] (for 64-bit platform) are recommended. For Mac OS X users, package [ftp://ftp.qt.nokia.com/qtsdk/qt-sdk-mac-opensource-2010.05.dmg qt-sdk-mac-opensource-2010.05.dmg] is recommended.
+*For Linux and Mac OS X Users*: For users on Linux and / or Mac OS X, you need to download and install the Qt SDK (open source version) by yourself. Note that the latest SDK from Qt homepage may not be able to work properly with [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt] binding, so you need to download an older version from here: [ftp://ftp.qt.nokia.com/qtsdk/]. For Linux users, package [ftp://ftp.qt.nokia.com/qtsdk/qt-sdk-linux-x86-opensource-2010.05.bin qt-sdk-linux-x86-opensource-2010.05.bin] and [ftp://ftp.qt.nokia.com/qtsdk/qt-sdk-linux-x86_64-opensource-2010.05.bin qt-sdk-linux-x86_64-opensource-2010.05.bin] (for 64-bit platform) are recommended. For Mac OS X users, package [ftp://ftp.qt.nokia.com/qtsdk/qt-sdk-mac-opensource-2010.05.dmg qt-sdk-mac-opensource-2010.05.dmg] is recommended.
 
 To install Qt SDK on Linux, type following commands in your console:
 {{{
@@ -38,15 +38,15 @@ Then a guide window will be shown for your installation.
 To install Qt SDK on Mac OS X, simply click qt-sdk-mac-opensource-2010.05.dmg and run the package installer.
 
 
-= Installing [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt]4 =
+= Installing [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt4] =
 
-PyQt is a Qt binding for Python language. The homepage of PyQt is: [http://www.riverbankcomputing.co.uk]. 
+[http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt] is a Qt binding for Python language. The homepage of [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt] is: [http://www.riverbankcomputing.co.uk]. 
 
 *For Windows Users*: Windows users can download and install the all-in-one binary package from: [http://www.riverbankcomputing.co.uk/software/PyQt/download]. Note that the Python version (Py2.6, Py2.7, etc.) and the platform type (32-bit, 64-bit) must match your system.
 
-*For Linux and Mac OS X Users*: Linux and Mac OS X users must build and install the PyQt by hand.
+*For Linux and Mac OS X Users*: Linux and Mac OS X users must build and install the [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt] by hand.
 
-First, the SIP must be installed before building PyQt. You can get the latest version of SIP and the installation guide from: [http://www.riverbankcomputing.co.uk/static/Docs/sip4/installation.html].
+First, the SIP must be installed before building [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt]. You can get the latest version of SIP and the installation guide from: [http://www.riverbankcomputing.co.uk/static/Docs/sip4/installation.html].
 
 Then download and unzip the source package for your system. Type following commands in console:
 {{{
@@ -60,7 +60,7 @@ $python configure.py -q ~/qtsdk/qt/bin/qmake
 When you see the following messages, type "yes" and press enter:
 {{{
 Determining the layout of your Qt installation...
-This is the GPL version of PyQt 4.8.4 (licensed under the GNU General Public
+This is the GPL version of [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt] 4.8.4 (licensed under the GNU General Public
 License) for Python 2.7.1+ on linux2.
 
 Type '2' to view the GPL v2 license.
