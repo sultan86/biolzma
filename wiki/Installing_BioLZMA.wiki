@@ -38,7 +38,7 @@ Then a guide window will be shown for your installation.
 To install Qt SDK on Mac OS X, simply click qt-sdk-mac-opensource-2010.05.dmg and run the package installer.
 
 
-= Installing PyQt4 =
+= Installing [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt]4 =
 
 PyQt is a Qt binding for Python language. The homepage of PyQt is: [http://www.riverbankcomputing.co.uk]. 
 
@@ -102,7 +102,7 @@ $python setup.py install
 
 Pylzma is Python binding of the LZMA SDK. The homepage of pylzma is: [http://www.joachim-bauch.de/projects/pylzma/]. It is also on the Python package list: [http://pypi.python.org/pypi/pylzma].
 
-*Install Using EasyInstall (Windows Users Only)*: Make sure you have [http://peak.telecommunity.com/DevCenter/EasyInstall EasyInstall] installed. Download the latest version of pylzma python egg from: [http://pypi.python.org/pypi/pylzma]. Then enter following commands:
+*Install Using [http://peak.telecommunity.com/DevCenter/EasyInstall EasyInstall] (Windows Users Only)*: Make sure you have [http://peak.telecommunity.com/DevCenter/EasyInstall EasyInstall] installed. Download the latest version of pylzma python egg from: [http://pypi.python.org/pypi/pylzma]. Then enter following commands:
 {{{
 $python easy_install.py pylzma-0.4.4-py2.7-win32.egg
 }}}
