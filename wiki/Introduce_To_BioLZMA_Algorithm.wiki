@@ -8,9 +8,11 @@ This wiki page is *still under development*. Come back later :)
 
 = Why We Need DNA Data Compression Algorithms =
 
-As we all know that the DNA data is very important in scientific research. It contains the complete genetic information for organisms’ developing and functioning. To obtain the DNA data of various creatures, many DNA sequencing projects have been performed and huge amount of biological data has been produced, which brings a lot pressure on its storage and transmission. To deal with this rapidly expanding DNA data, we need some effective compression algorithms.
+As we all know that the DNA data is essential in biological and medical research. It contains the complete genetic information for organisms’ developing and functioning. To obtain the DNA data of various creatures, many DNA sequencing projects have been performed and huge amount of biological data has been produced, which brings a lot pressure on its storage and transmission. To deal with this rapidly expanding DNA data, we need some effective compression techniques.
 
-However, most of the existing general-purpose data compression algorithms have bad performance on DNA data due to its special data features (In fact, the DNA data will expand about 20% in size after "compressed" by tools like bzip2). That's why we need algorithms specific designed for DNA data compression.
+However, existing general-purpose data compression algorithms can not achieve satisfying performance on DNA data due to its intrinsic unique data features. In fact the DNA data will be expand about 20% in size after "compressed" by tools like bzip2. That's why we need to develop techniques specific designed for DNA data compression.
+
+The first DNA data compression algorithm, namely [http://www-rocq.inria.fr/~grumbach/biocompress.html BioCompress], was proposed in 1994. After that, many new compression techniques and improvements were introduced. Algorithms like [http://www.cs.cityu.edu.hk/~cssamk/gencomp/GenCompress1.htm GenCompress], [http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.21.3908 CTW+LZ], [http://monod.uwaterloo.ca/downloads/dnacompress/ DNACompress] and [http://www.cs.tut.fi/~tabus/genml/index.html GeNML] have achieve significant progress in enhancing the compression rate of DNA data.
 
 
 = The BioLZMA Algorithm =
