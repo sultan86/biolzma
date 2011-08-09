@@ -52,4 +52,4 @@ The BioLZMA will generate two files for each compressed DNA data: a dictionary f
 
 *NOTE*: the algorithm used in this software is a modified version of the original BioLZMA, which is described in the following reference paper.
 
-  * [www.ejournal.org.cn/qikan/manage/wenzhang/20110502.pdf Ji Zhen, Zhou Jiarui, Zhu Zexuan and Q. H. Wu. "Bioinformatics Features Based DNA Sequence Data Compression Algorithm". Acta Electronica Sinica, 2011 (5): 991-995]
+  * [http://www.ejournal.org.cn/qikan/manage/wenzhang/20110502.pdf Ji Zhen, Zhou Jiarui, Zhu Zexuan and Q. H. Wu. "Bioinformatics Features Based DNA Sequence Data Compression Algorithm". Acta Electronica Sinica, 2011 (5): 991-995.]
