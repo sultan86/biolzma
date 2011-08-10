@@ -94,6 +94,15 @@ Try install the python-dev package first:
 {{{
 $sudo apt-get install python-dev
 }}}
+If you get such error:
+{{{
+cannot find -lXext
+}}}
+Try install libxext6 and libxext-dev and build again:
+{{{
+$sudo apt-get install libext6
+$sudo apt-get install libext-dev
+}}}
 
 = Installing bitstring =
 
