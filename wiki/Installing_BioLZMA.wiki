@@ -48,6 +48,15 @@ To install Qt SDK on Mac OS X, simply click qt-sdk-mac-opensource-2010.05.dmg an
 
 First, the SIP must be installed before building [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt]. You can get the latest version of SIP and the installation guide from: [http://www.riverbankcomputing.co.uk/static/Docs/sip4/installation.html].
 
+For Linux users, if you get a fatal error:
+{{{
+fatal error: Python.h: no such file or dictionary
+}}} 
+Try install this package first:
+{{{
+$sudo apt-get install python-dev
+}}}
+
 Then download and unzip the source package for your system. Type following commands in console:
 {{{
 $cd PyQt-x11-gpl-4.8.4
