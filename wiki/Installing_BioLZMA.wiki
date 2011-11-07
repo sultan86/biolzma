@@ -189,9 +189,9 @@ Package [BioLzmaGUI] ... (O)
 
 Check All Done.
 }}}
-If you get a "x" after the package name, it means this package is not installed properly. Perhaps you should re-install it and check again.
+If you get a "x" after the package name, it means this package is not installed properly. Perhaps you should reinstall it and check again.
 
 
 = Pre-compiled Binary =
 
-We know that the installation process is a little bit too complex for some of you. Especially if you are not familiar with Python. The pre-compiled binary of BioLZMA is now available for Windows and Mac OS X user that works out of the box.
+We know that the installation process is a little bit too complex for some of you. Especially if you are not familiar with Python. The pre-compiled binary is now available for Windows and Mac OS X users that works out of the box without any installation.
