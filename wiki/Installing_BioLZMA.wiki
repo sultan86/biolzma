@@ -165,35 +165,33 @@ $python BioLZMA.py
 }}}
 And the software GUI will appear immediately. If not, type following command to check your installation:
 {{{
-$python BioLZMA.py -check
+$python BioLZMA.py --check
 Checking required modules
-Performing package check...
----------------------
 Package [psyco] ... (X)
 Package [bitstring] ... (O)
 Package [plistlib] ... (O)
 Package [pylzma] ... (O)
 Package [PyQt4] ... (O)
----------------------
 
 Checking software modules
-Performing package check...
----------------------
 Package [Foundation] ... (O)
 Package [Config] ... (O)
 Package [DataIO] ... (O)
-Package [Converter] ... (O)
+Package [SymbolConverter] ... (O)
 Package [Huffman] ... (O)
 Package [Lzma] ... (O)
 Package [Precoder] ... (O)
 Package [BzCoder] ... (O)
-Package [BioLzmaUI] ... (O)
----------------------
+Package [BzConsole] ... (O)
+Package [BzInteractive] ... (O)
+Package [BzGUI] ... (O)
+Package [BioLzmaGUI] ... (O)
 
+Check All Done.
 }}}
 If you get a "x" after the package name, it means this package is not installed properly. Perhaps you should re-install it and check again.
 
 
-= Future Works =
+= Pre-compiled Binary =
 
-We know that the installation process is a little bit too complex for some of you. Especially if you are not familiar with Python. A precompiled version of BioLZMA will soon be released to solve this problem. Please check back later :)
+We know that the installation process is a little bit too complex for some of you. Especially if you are not familiar with Python. The pre-compiled binary of BioLZMA is now available for Windows and Mac OS X user that works out of the box.
