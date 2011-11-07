@@ -3,9 +3,5 @@
 
 = User Manual =
 
-  * The English version of BioLZMA user manual can be downloaded from here: *COMING SOON*
-  * The Chinese version of BioLZMA user manual can be downloaded from here: *COMING SOON*
-
-= Feedback =
-
-If you have any advices and / or opinions, please contact me: 030bug@gmail.com (Facebook, Twitter and Google+). Any recommendation will be appreciated. 
+  * English version of BioLZMA user manual can be downloaded from here: *COMING SOON*
+  * Chinese version of BioLZMA user manual can be downloaded from here: *COMING SOON*
